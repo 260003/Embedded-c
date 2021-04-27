@@ -18,13 +18,11 @@
  */
 void peripheral_init(void)
 {
-	DDRB|=(1<<PB0); //Nakes first pin of PORTC as Output
-  // OR DDRC = 0x01;
-  DDRD &=~(1<<PD0);//Makes firs pin of PORTD as Input
-  DDRD &= ~(1<<PD1);
-  // OR DDRD = 0x00; //Makes all pins of PORTD input
-  PORTD|=(1<<PD0);
-  PORTD|=(1<<PD1);
+   DDRB|=(1<<PB0); //Nakes first pin of PORTC as Output
+   DDRD &=~(1<<PD0);//Makes firs pin of PORTD as Input
+   DDRD &= ~(1<<PD1);
+   PORTD|=(1<<PD0);
+   PORTD|=(1<<PD1);
 }
 
 void change_led_state(uint8_t state)

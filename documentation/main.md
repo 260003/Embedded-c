@@ -1,0 +1,1 @@
+@mainpage Emcproject for Embedded track by Rahul Mane @subpage project_main.c

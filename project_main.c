@@ -20,7 +20,7 @@ int main(void)
 	while(1)
            {
 		uint8_t Status;
-		Status=LedActuator(); // if both heate and button is on then only go ahead to read data from sensor
+		Status=LedActuator(); // if both heater and button is on then only go ahead to read data from sensor
 		if(Status==ON)
                     {
 			Temperature=ReadADC(ADCchannel); /*read data from ADC*/

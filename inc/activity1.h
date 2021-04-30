@@ -17,7 +17,7 @@
 #define F_CPU 16000000UL
 #include <avr/io.h>
 #include <util/delay.h>
-
+#define ON 1
 
 /**
  * @brief Function to change status of LED

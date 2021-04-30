@@ -46,9 +46,6 @@ $(BUILD_DIR):
 	# Create directory to store the built files
 	mkdir $(BUILD_DIR)
 
-hexfile:
-	#Creates activity2.hex file
-	$(AVR_OBJ_CPY) -O ihex $(BUILD_DIR)/$(ELFFILE) $(BUILD_DIR)/$(PROJ_NAME).hex
 
 analysis: $(SRC)
 	#Analyse the code using Cppcheck command line utility

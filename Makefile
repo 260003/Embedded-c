@@ -1,12 +1,14 @@
-PROJ_NAME = Activity2
+PROJ_NAME = Emcproject
 ELFFILE = $(PROJ_NAME).elf
 BUILD_DIR = Build
 
 # All Source code files
 SRC = project_main.c\
-src/user_utils.c\
-src/activity1_source.c\
-src/activity2_source.c
+src/activity1.c\
+src/activity2.c\
+src/activity3.c
+
+
 # All header file paths
 INC = -I inc
 

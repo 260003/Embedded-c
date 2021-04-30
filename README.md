@@ -5,7 +5,6 @@
 
 |ON|OFF|
 |:--:|:--:|
-| ![image](https://user-images.githubusercontent.com/80737226/116720160-8055f580-a9f9-11eb-88cb-19d14ed1abea.png)
-    | ![image](https://user-images.githubusercontent.com/80737226/116720293-a085b480-a9f9-11eb-8438-91d6fa645130.png)
+| ![image](https://user-images.githubusercontent.com/80737226/116720160-8055f580-a9f9-11eb-88cb-19d14ed1abea.png)  | ![image](https://user-images.githubusercontent.com/80737226/116720293-a085b480-a9f9-11eb-8438-91d6fa645130.png)|
    |
 

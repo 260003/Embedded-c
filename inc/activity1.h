@@ -34,16 +34,13 @@ void ChangeLed(uint8_t state);
 void Delay(uint32_t delay_time);
 
 /**
- * @brief Function to change LED status according to the user requirement in activity1
+ * @brief Function to change LED status 
  *
  * @return FLAG
  */
 uint8_t LedActuator(void);
 
-/**
- * @brief Function to initialize peripherals of microcontroller
- *
- */
+
 
 
 #endif /* _ACTIVITY1_H_ */
